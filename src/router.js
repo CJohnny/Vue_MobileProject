@@ -6,6 +6,13 @@ import MemberContainer from './components/tabbar/MemberContainer.vue'
 import ShopcarContainer from './components/tabbar/ShopcarContainer.vue'
 import SearchContainer from './components/tabbar/SearchContainer.vue'
 
+// var router = new VueRouter({
+//   routes: [
+//     { path: '/', redirect: '/home' },
+//     { path: '/home', component: HomeContainer }
+//   ]
+// })
+
 // 3. 创建路由对象
 var router = new VueRouter({
   routes: [ // 配置路由规则
