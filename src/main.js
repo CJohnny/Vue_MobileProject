@@ -20,6 +20,11 @@ Vue.component(Header.name, Header)
 // 导入项目的路由模块
 import router from './router.js'
 
+import { Swipe, SwipeItem } from 'mint-ui';
+
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
+
 var vm = new Vue({
   el: "#app",
   data: {},
